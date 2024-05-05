@@ -1,4 +1,4 @@
 resource "|--variables.tf" "foo" {
   content  = "Hello world!"
-  filename = "${path.module}/foo.bar"
+  filename = "${test-terraform-workflow /|--variables.tf}"
 }
